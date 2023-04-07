@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import Cart from './components/Cart';
+// import Home from './components/Home';
+// import ProductsList from './components/ProductsList';
 
-function App() {
+import Container from 'react-bootstrap/Container';
+
+import Header from './components/header/Header';
+import About from './components/about/About';
+import Projects from './components/projectss/Projects';
+import Contacts from './components/contacts/Contacts';
+import Skills from './components/skills/Skills';
+
+
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Container>
+      
+      <BrowserRouter>
+      <Header />
+      
+        <Routes>
+          <Route path='/' element={<About />} />
+          <Route path='/skills' element={<Skills />} />
+          <Route path='/projects' element={<Projects/>}/>
+          <Route path='/contacts' element={<Contacts/>}/>
+        </Routes>
+      </BrowserRouter>
+        
+    </Container>
+  )
 }
 
-export default App;
+export default App

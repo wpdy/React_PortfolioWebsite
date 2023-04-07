@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+h3 {
+  font-family: "Bahnschrift SemiBold";
+}
+
+.skillcontainer{
+    margin-top: 150px;
+}
+
+.skillcontainer .skill{
+    margin-bottom: 30px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.skillcontainer .skill h3{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.skillcontainer .skill h4{
+    float: right;
+}
+
+.skillcontainer .skill .skill-bar{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 17px;
+    border-radius: 15px;
+    background: #48cae4;
+}
+
+.skillcontainer .skill .fill-bar{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    height: 17px;
+    border-radius: 15px;
+    background: #0077b6;
+}
+
+.skillcontainer .skill .html{
+    animation: html 2s;
+    width: 95%;
+}
+
+.skillcontainer .skill .css{
+    animation: css 2s;
+    width: 85%;
+}
+
+.skillcontainer .skill .javascript{
+    animation: javascript 2s;
+    width: 70%;
+}
+
+.skillcontainer .skill .react{
+    animation: react 2s;
+    width: 65%;
+}
+
+@keyframes html{
+    from{
+        width: 0;
+    }
+    to{
+        width: 95%;
+    }
+}
+
+@keyframes css{
+    from{
+        width: 0;
+    }
+    to{
+        width: 85%;
+    }
+}
+
+@keyframes javascript{
+    from{
+        width: 0;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+
+@keyframes react{
+    from{
+        width: 0;
+    }
+    to{
+        width: 65%;
+    }
+}
