@@ -4,6 +4,13 @@ h3 {
   font-family: "Bahnschrift SemiBold";
 }
 
+.skillname {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: "Bahnschrift SemiBold";
+}
+
 .skillcontainer{
     margin-top: 150px;
 }

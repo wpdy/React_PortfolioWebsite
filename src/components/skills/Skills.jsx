@@ -3,6 +3,7 @@ import './Skills.css'
 const Skills = () => {
   return (
     <div className="skillcontainer">
+        <p className='skillname'>Skills</p>
         <div className="skill">
             <h3>HTML</h3>
             <h4>95%</h4>

@@ -4,9 +4,11 @@ import './About.css'
 
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillTwitterCircle } from "react-icons/ai";
 
 
-const About = () => {
+
+const About = () => { 
   return (
     <div className='aboutcontainer'>
       <h1 className='myname'>Darius Drakšas</h1>
@@ -28,11 +30,14 @@ const About = () => {
       </div>
 
         <div className='iconcon'>
-          <h6><AiFillGithub size={38}/> </h6>
-          <h6><AiFillLinkedin size={38}/> </h6>
+          <a href="https://github.com/wpdy"><h6><AiFillGithub size={38}/> </h6></a>
+          <a href="/blank"><h6><AiFillLinkedin size={38}/></h6></a>
+          <a href="/blank"><h6><AiFillTwitterCircle size={38}/></h6></a>
         </div>
 
     </div>
+
+      
   )
 }
 

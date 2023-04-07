@@ -5,10 +5,6 @@ import './Projects.css'
 
 const Projects = () => {
 
-    const openInNewTab = (url) => {
-        window.open(url, '_blank', 'noreferrer');
-      };
-
     return (
         <div className='cardcon'>
             <Card style={{ width: '18rem' }}>
@@ -18,7 +14,7 @@ const Projects = () => {
                     <Card.Text>
                         MovieLand
                     </Card.Text>
-                    <Button onClick={() => openInNewTab('https://react-movie-land.vercel.app/')}>Live Preview</Button>
+                    <a href="https://react-movie-land.vercel.app/"><Button>Live Preview</Button></a>
                 </Card.Body>
             </Card>
         </div>

@@ -6,15 +6,13 @@
  body {
   height: 100vh;
  }
- 
- /* h3, p{
-   color:#ecede6;
-   text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
- 
- } */
 
  .lol {
-    background-color: #fbe3e8;
+  background-image: url("vataip2.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
  }
 
  .nav-link {
@@ -25,7 +23,3 @@
  .me-auto {
   color: aqua;
  }
-
- /* .header {
-  color: aquamarine;
- } */
