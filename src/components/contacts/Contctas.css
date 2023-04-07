@@ -6,3 +6,19 @@
 .formcon {
     margin: 50px;
 }
+
+.iconcon {
+    display: flex;
+    gap: 0.5em;
+    margin-top: 30px;
+  }
+  
+  h6 {
+    color: #454545;
+  }
+  
+  h6:hover {
+    color: grey ;
+    transition: 0.3s;
+  }
+  

@@ -11,6 +11,11 @@ import { collection, addDoc } from "firebase/firestore";
 import './Contctas.css'
 
 
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillTwitterCircle } from "react-icons/ai";
+
+
 
 const Contacts = () => {
 
@@ -88,6 +93,15 @@ const Contacts = () => {
         Submit
       </Button>
     </Form>
+
+
+    <div className='iconcon'>
+      <a href="https://github.com/wpdy"><h6><AiFillGithub size={38}/> </h6></a>
+      <a href="/blank"><h6><AiFillLinkedin size={38}/></h6></a>
+      <a href="/blank"><h6><AiFillTwitterCircle size={38}/></h6></a>
+    </div>
+
+
     </div>
   )
 }

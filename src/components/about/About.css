@@ -21,16 +21,3 @@
 }
 
 
-.iconcon {
-  display: flex;
-  gap: 0.5em;
-}
-
-h6 {
-  color: #454545;
-}
-
-h6:hover {
-  color: grey ;
-  transition: 0.3s;
-}

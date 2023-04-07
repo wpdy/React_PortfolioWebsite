@@ -18,7 +18,7 @@ const Skills = () => {
         </div>
         <div className="skill">
             <h3>Vanilla JavaScript</h3>
-            <h4>60%</h4>
+            <h4>50%</h4>
             <span className="skill-bar"></span>
             <span className="fill-bar javascript"></span>
         </div>
